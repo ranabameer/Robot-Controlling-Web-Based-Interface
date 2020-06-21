@@ -1,13 +1,11 @@
 body{
     margin:auto 0;
     background-image: url(./Robot.jpg);
-     background-size: cover;
-
+    background-repeat:no-repeat;
+     background-size:contain;
   
-
-   
 }
-
+}
 .btn{
 	  width: 150px;
   	height: 50px;
