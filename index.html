@@ -23,6 +23,19 @@
 			<button class="btn btn-info">Backwards</button>
 		</div>
 	</div>
+	<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "a18d19e3-f058-48c3-82fa-feb2698dee7b", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "818bb2da-2941-4714-a2bd-10f63f01f7bb", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 	
 </body>
 </html>
